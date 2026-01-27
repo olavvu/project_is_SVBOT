@@ -1,0 +1,38 @@
+PROJECT INTELLIGENT SYSTEMS (SVBOT) INSTRUCTIONS
+
+
+1. 
+Set up a clean environment
+Install conda, then run:
+```sh
+conda create --name svbot_env python=3.10
+```
+```sh
+conda activate svbot_env
+```
+
+2. 
+Download the Schnapsen platform (https://github.com/intelligent-systems-course/schnapsen)
+Clone the course repo:
+```sh
+git clone <official_schnapsen_repo_url>
+```
+```sh
+cd schnapsen
+```
+```sh
+pip install -e .
+```
+3. 
+Open VS Code
+Create a new folder where you want to put svbot or your own bot + experiments.
+Open that folder in VS Code.
+4. 
+TO USE SVBOT FILES + EXPERIMENTS:
+Go to the 'project_is_SVBOT' GitHub repository, open each Python file (SVBot, Experiment 1, 2, and 3),
+and simply copy + paste the code into your own .py files in the VS Code folder you created.
+(No need to clone repo unless you want to since copying the files works equally as fine.)
+
+Run everything
+Make sure your environment is still activated, then run any experiment, for example:
+python exp_2.py
