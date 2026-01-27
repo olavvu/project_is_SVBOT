@@ -1,5 +1,4 @@
-# project_is_SVBOT
-# Schnapsen platform - Project Intelligent Systems 2024-2025
+# Schnapsen platform - Project Intelligent Systems 2026 SVBot
 
 ## Getting started
 
