@@ -1,4 +1,4 @@
-# Schnapsen platform - Project Intelligent Systems 2026 SVBot
+# Schnapsen platform - Project Intelligent Systems 2026 
 
 ## Getting started
 
