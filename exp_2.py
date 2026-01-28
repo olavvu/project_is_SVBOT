@@ -16,7 +16,7 @@ sv_bot = SVBot(random.Random(), name="sv_bot")
 rdeep_points = []
 sv_bot_points = []
 
-# Use a loop to run 100 games
+# Use a loop to run 5000 games
 for i in range(5001):
     # Run a game at each iteration of the loop and store the points 
     winner, game_score, game_points = engine.play_game(rdeep_bot, sv_bot, random.Random())
@@ -27,7 +27,7 @@ for i in range(5001):
         rdeep_points.append(0)
         sv_bot_points.append(game_points.direct_points)
 
-# This premade line will print the results if you completed the above code correctly
+# print results
 print(f"RDeep has scored an average {mean(rdeep_points)}, while sv_bot scored an average {mean(sv_bot_points)}")
 
 
