@@ -17,7 +17,7 @@ bully_bot = BullyBot(random.Random(), name="bullybot")
 rand_points = []
 bully_points = []
 
-# Use a loop to run 100 games
+# Use a loop to run 5000 games
 for i in range(5001):
     # Run a game at each iteration of the loop and store the points 
     winner, game_score, game_points = engine.play_game(rand_bot, bully_bot, random.Random())
@@ -28,7 +28,7 @@ for i in range(5001):
         rand_points.append(0)
         bully_points.append(game_points.direct_points)
 
-# This premade line will print the results if you completed the above code correctly
+# print results
 print(f"Rand has scored an average {mean(rand_points)}, while bullybot scored an average {mean(bully_points)}")
 
 
